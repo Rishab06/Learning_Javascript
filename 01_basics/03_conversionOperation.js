@@ -55,7 +55,9 @@ console.log(+true); //In JavaScript, the unary plus operator (+) is used to conv
 console.log(+"");  //+"" converts an empty string to the number 0.
 //It's a shorthand way to perform type conversion. If the conversion isn't possible (e.g., +"hello"), it will result in NaN (Not a Number).
 
-
+let gameCounter=100;
+++gameCounter
+console.log(gameCounter);
 // link to study
 // https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
 
